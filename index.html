@@ -54,11 +54,11 @@
 			<nav id="colorlib-main-menu" role="navigation">
 				<ul>
 					<li class="colorlib-active"><a href="index.html">Home</a></li>
-					<li><a href="work.html">Work</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="blog.html">Blog</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a class="nav" href="#about">About</a></li>
+					<li><a class="nav" href="#services">Services</a></li>
+					<li><a class="nav" href="#work">Work</a></li>
+					<li><a class="nav" href="#blog">Blog</a></li>
+					<li><a class="nav" href="#contact">Contact</a></li>
 				</ul>
 			</nav>
 
@@ -80,12 +80,12 @@
 		</aside>
 
 		<div id="colorlib-main">
-			<div class="colorlib-about">
+			<div id="about" class="colorlib-about">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-6">
 							<div class="about-img animate-box" data-animate-effect="fadeInLeft" style="background-image: url(images/img_bg_2.jpg);">
-								<div class="about-img-2 animate-box" data-animate-effect="fadeInRight" style="background-image: url(images/img_bg_3.jpg);"></div>
+								<div class="about-img-2 animate-box" data-animate-effect="fadeInRight" style="background-image: url(images/profile.jpg);"></div>
 							</div>
 						</div>
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
@@ -163,7 +163,7 @@
 				</div>
 			</div>
 
-			<div class="colorlib-services">
+			<div class="colorlib-services" id="services">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3">
@@ -244,7 +244,7 @@
 				</div>
 			</div>
 
-			<div class="colorlib-work">
+			<div class="colorlib-work" id="work">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3">
@@ -347,7 +347,7 @@
 				</div>
 			</div>
 
-			<div class="colorlib-blog">
+			<div class="colorlib-blog" id="blog">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3">
@@ -393,7 +393,7 @@
 				</div>
 			</div>
 
-			<div id="get-in-touch" class="colorlib-bg-color">
+			<div id="contact" class="colorlib-bg-color">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
@@ -429,6 +429,8 @@
 
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
+	<!-- additional js -->
+	<script src="js/add.js"></script>
 
 </body>
 

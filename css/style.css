@@ -82,7 +82,6 @@ figure {
   bottom: 0;
   top: 0;
   left: 0;
-  overflow-y: scroll;
   z-index: 1001;
   background: #fff;
   -webkit-transition: 0.5s;
@@ -676,9 +675,9 @@ body.offcanvas {
   font-size: 18px;
   line-height: 1.5; }
 
-#get-in-touch {
+#contact {
   padding: 2em; }
-  #get-in-touch .btn-learn {
+  #contact .btn-learn {
     padding: 15px 30px !important;
     font-size: 13px;
     -webkit-border-radius: 30px;
