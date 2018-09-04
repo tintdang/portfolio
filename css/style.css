@@ -22,7 +22,7 @@ body {
       font-size: 16px; } }
 
 a {
-  color: #F75940;
+  color: white;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -625,7 +625,7 @@ body.offcanvas {
     .project .desc span {
       display: block;
       color: #999999;
-      font-size: 13px;
+      font-size: 18px;
       -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
       -webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
       transition: opacity 0.3s, -webkit-transform 0.3s;
@@ -639,7 +639,7 @@ body.offcanvas {
     @media screen and (max-width: 768px) {
       .project .desc {
         opacity: 1;
-        background: rgba(255, 255, 255, 0.5); }
+        background: rgba(0, 0, 0, 0.9); }
         .project .desc h3 {
           font-style: 28px;
           -webkit-transform: translate3d(0, 0, 0);
@@ -1117,3 +1117,7 @@ body.offcanvas {
     height: inherit !important;
     float: left;
     padding-top: 30px; } }
+
+.contactlink a{
+  color: #F75940;
+}
