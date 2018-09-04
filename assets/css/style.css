@@ -22,12 +22,11 @@ body {
       font-size: 16px; } }
 
 a {
-  color: white;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #F75940;
+    color: rgb(45, 7, 214);
     outline: none;
     text-decoration: none !important; }
 
@@ -118,7 +117,7 @@ figure {
       display: inline-block;
       text-align: center;
       /* background: #000; */
-      color: #fff;
+      
       letter-spacing: 10px;
       padding-right: .3em; }
       #colorlib-aside #colorlib-logo a img {
@@ -769,7 +768,7 @@ body.offcanvas {
     .colorlib-feature .colorlib-icon i {
       display: table-cell;
       vertical-align: middle;
-      color: #F75940;
+      color: rgb(45, 7, 214);
       font-size: 40px;
       height: 100px; }
       @media screen and (max-width: 1200px) {
@@ -791,7 +790,7 @@ body.offcanvas {
   .colorlib-feature.colorlib-feature-sm .colorlib-text {
     margin-top: 30px; }
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
-    color: #F75940;
+    color: rgb(45, 7, 214);
     font-size: 40px; }
     @media screen and (max-width: 1200px) {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
@@ -874,9 +873,8 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: #F75940;
   color: #fff;
-  border: 2px solid #F75940; }
+  border: 2px solid rgb(45, 7, 214); }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
     background: #f86e58 !important;
     border-color: #f86e58 !important; }
@@ -885,7 +883,7 @@ body.offcanvas {
     color: #F75940;
     border: 2px solid #F75940; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #F75940;
+      background: rgb(45, 7, 214);
       color: #fff; }
 
 .btn-success {
@@ -1124,6 +1122,3 @@ body.offcanvas {
     float: left;
     padding-top: 30px; } }
 
-.contactlink a{
-  color: #F75940;
-}
