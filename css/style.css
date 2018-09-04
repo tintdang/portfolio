@@ -639,15 +639,21 @@ body.offcanvas {
     @media screen and (max-width: 768px) {
       .project .desc {
         opacity: 1;
-        background: rgba(0, 0, 0, 0.9); }
-        .project .desc h3 {
+        background: rgba(0, 0, 0, 0.9);
+        top: 270px;
+        height: 180px; }
+        .project .desc h2 {
           font-style: 28px;
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
-          color: #000; }
+          color: #000; 
+          margin-bottom: 10px; }
         .project .desc span {
           -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0); } }
+          transform: translate3d(0, 0, 0); } 
+        .project .desc .con {
+          height: 205px;
+        } }
   .project:hover .desc {
     opacity: 1; }
     .project:hover .desc h3 {
